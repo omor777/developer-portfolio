@@ -132,5 +132,78 @@ main {
 }
 
 .about-info {
-    text-align: center;
+  text-align: center;
 }
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 33px;
+}
+
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0 20px;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* resume section */
+.resume {
+  margin-top: 130px;
+}
+
+.resume-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resume .resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.qualification {
+  display: flex;
+  flex-direction: column;
+}
+.qualification .title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.qualification .education {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.qualification .info {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 511px;
+}
+
