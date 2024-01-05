@@ -207,3 +207,79 @@ main {
   max-width: 511px;
 }
 
+.download-cv-btn {
+  padding: 18px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+/* footer section styles */
+
+footer {
+  margin-top: 113px;
+  display: flex;
+  justify-content: center;
+  gap: 117px;
+  background: #fff8f3;
+  padding: 130px 230px;
+}
+
+footer .left-section .title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.left-section .description {
+  width: 562px;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+footer .links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer input,
+textarea {
+  width: 461px;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  padding: 18px 30px;
+  border: 0;
+}
+
+footer textarea {
+  resize: none;
+}
+
+footer input[type="submit"] {
+  width: fit-content;
+  padding: 18px 39px;
+  border-radius: 5px;
+  background: #fd6e0a;
+
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
